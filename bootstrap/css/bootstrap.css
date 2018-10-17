@@ -599,7 +599,7 @@ pre code {
   font-size: 10pt;
   background-color: #fff;
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 30px;
   margin-top: 130px;
   padding-right: 15px;
   padding-left: auto;
@@ -3856,19 +3856,23 @@ tbody.collapse.show {
 }
 
 .nav {
-  top: 0px;
-  width: 100%
+  background-color: transparent;
+  font-size: 17px;
+  font-weight: bold;
+
+  top: 10px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
   list-style: none;
   position: fixed;
 }
-
+.nav ul li{
+  list-style: none;
+}
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -8765,6 +8769,7 @@ button.bg-dark:focus {
 }
 
 .text-center {
+  margin-top: 80px;
   text-align: center !important;
   color: white;
 }
