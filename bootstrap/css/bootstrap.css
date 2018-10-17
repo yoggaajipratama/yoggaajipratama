@@ -9014,6 +9014,8 @@ a.text-dark:hover, a.text-dark:focus {
   border: solid;
 }
 .text{
-  color: white;
+  color: black;
   font-size: bold;
+  background-color: #cecece;
+  border: solid;
 }
