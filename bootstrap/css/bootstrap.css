@@ -3856,6 +3856,8 @@ tbody.collapse.show {
 }
 
 .nav {
+  top: 0px;
+  width: 100%
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
