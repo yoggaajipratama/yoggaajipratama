@@ -38,7 +38,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: border
+  -box;
 }
 
 html {
@@ -599,11 +600,11 @@ pre code {
   background-color: #fff;
   background-size: cover;
   border-radius: 20px;
-  margin-top: 120px;
+  margin-top: 100px;
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: auto;
   margin-right: auto;
-  margin-left: 30px;
+  margin-left: auto;
   
   /*background-color: #CCFFFF;*/
 }
@@ -3863,6 +3864,7 @@ tbody.collapse.show {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  position: fixed;
 }
 
 .nav-link {
@@ -9005,16 +9007,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .photo{
   width: 128px;
-  height: 128px;
-  border-radius: 50%;
+  height: 160px;
+  border-radius: 30%;
   border: solid;
 }
-.multiple{
--webkit-column-count: 2;
--moz-column-count: 2;
-column-count: 2;
-
--webkit-column-rule: 5px double black;
--moz-column-rule: 5px double black;
-column-rule: 5px double black;
+.text{
+  color: white;
+  font-size: bold;
 }
